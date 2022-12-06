@@ -1,6 +1,7 @@
 import Edit from "../img/edit.png";
 import Delete from "../img/delete.png";
 import { Link } from "react-router-dom";
+import Menu from "../components/Menu";
 
 const Single = () => {
   return (
@@ -26,43 +27,54 @@ const Single = () => {
             <img src={Delete} alt="" />
           </div>
         </div>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          ipsum reiciendis adipisci in aliquam? Est facilis dolore illum aperiam
-          eaque itaque eius nobis voluptates fuga? Quaerat, eaque labore! Eaque,
-          laudantium. Quas provident soluta quos modi, dolore aut, tenetur sunt
-          eum eius odit eveniet enim beatae quae nobis odio repellat id velit
-          vero quod dicta impedit. Harum possimus omnis alias ratione. Delectus,
-          pariatur esse. Quaerat nam fuga quae ab iure nisi ipsa velit labore
-          voluptates, itaque voluptas iusto ullam doloribus dignissimos numquam,
-          repellendus alias praesentium expedita cupiditate. Reiciendis delectus
-          dolore architecto! A repudiandae ea, unde porro fugiat rem repellat
-          eius error officia odio reiciendis sint. Quibusdam perferendis,
-          dolorem cum, alias placeat doloremque distinctio eligendi nemo officia
-          sequi similique itaque sit dolores! Ratione repellendus accusamus
-          facere, maxime nisi officia quod fuga minus, voluptatem ducimus
-          similique repudiandae perspiciatis, corporis reprehenderit modi in non
-          sapiente veritatis perferendis odit? Veniam illum consectetur unde
-          consequatur quibusdam. Temporibus fuga asperiores, sed doloribus
-          dignissimos neque dolorem ad dicta delectus vero autem debitis aliquam
-          saepe aut repellendus consectetur, quibusdam voluptatibus labore ea!
-          Voluptatum ipsa alias iure ad esse odio? Voluptas tempora amet quasi
-          aliquid natus sequi, maxime, nihil consequuntur facilis omnis ut
-          magnam cumque iste tempore. Autem assumenda, facere officia deleniti
-          sed, tenetur accusamus, aspernatur quis dolores ipsum nam! Est aliquam
-          officia odio, accusantium saepe fugit culpa error. Cupiditate non,
-          voluptatibus dicta placeat quam nihil iure iusto illo at, perspiciatis
-          similique quia fugiat ea ad, qui magnam quidem officiis. Ipsa earum
-          quasi natus, repudiandae deserunt possimus ducimus! Laudantium maiores
-          quibusdam iusto fuga ratione quos recusandae labore eaque nihil.
-          Libero minus sint praesentium cumque voluptatum odit quam fugiat
-          deleniti maiores. Minus ullam delectus numquam nulla cum hic dolorum
-          magni in pariatur repellendus esse impedit fugit aliquid animi
-          quisquam harum, dolore sunt placeat quas dolor? Est tempora omnis
-          necessitatibus placeat ducimus!
-        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            cumque, eum iusto nulla quam neque harum doloribus. Iusto
+            temporibus, libero est, deleniti molestiae mollitia voluptates quo
+            commodi expedita natus atque! Mollitia, magnam voluptatum. Nostrum
+            pariatur vitae iure facere distinctio eligendi, totam, laborum est
+            asperiores, libero harum sapiente aut laboriosam reiciendis autem
+            enim. A voluptatibus, aut porro ex harum quidem libero?
+            <br />
+            <br /> Sequi, voluptates, nesciunt, maxime aut cupiditate quos
+            temporibus dolores dolore sit eveniet ipsam tenetur nemo? Similique
+            facilis a porro tempore, atque, id odit, omnis aliquid suscipit
+            optio quisquam nihil expedita! Sequi ex reprehenderit commodi
+            numquam enim alias nobis corporis dolores nesciunt vitae nemo sed
+            vero quasi veniam eius optio, laboriosam necessitatibus qui
+            provident voluptatum iste minus quam animi! Blanditiis,
+            perspiciatis.
+            <br />
+            <br /> Adipisci repudiandae quos numquam earum atque nam,
+            cupiditate, eaque sequi voluptatem aliquam asperiores praesentium
+            eligendi autem eum. Debitis quae voluptatem ut sint esse maxime
+            harum a non, vitae id consequatur! Hic excepturi, accusamus eveniet
+            explicabo vel in doloremque facilis exercitationem, vero, voluptates
+            tempore qui? Recusandae, pariatur, amet animi expedita atque,
+            adipisci deleniti et maxime consequatur asperiores beatae odio
+            excepturi id! Dignissimos nulla quaerat eos laborum recusandae
+            facere perspiciatis ducimus placeat provident eius totam nobis hic,
+            modi sapiente adipisci quod ipsum optio quas necessitatibus. Libero
+            omnis corrupti cum voluptas saepe nobis.
+            <br />
+            <br />
+            Quibusdam exercitationem tempore consequuntur quam deleniti suscipit
+            ut saepe, dolorem quasi dolores! Adipisci ex quas, quasi rerum enim
+            molestias necessitatibus ipsam, possimus quidem cumque magnam ab
+            incidunt harum dolorem distinctio! Consectetur a dolor labore. Modi
+            sed perspiciatis hic temporibus culpa tempora non possimus,
+            recusandae quas consequatur fugiat, voluptate impedit incidunt
+            beatae necessitatibus corrupti quidem maxime ea sapiente officia
+            odit. Voluptates. Quae rerum atque, et ducimus libero dicta natus
+            labore laboriosam debitis fugiat sit amet nisi eum mollitia, tempora
+            excepturi omnis, dolorem quidem magnam possimus ipsum? Laborum
+            temporibus nemo quae tempore.
+          </p>
+        </p>
       </div>
-      <div className="menu">m</div>
+      <Menu />
     </div>
   );
 };
